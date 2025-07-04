@@ -23,7 +23,7 @@ body {
 }
 
 .section-product-preview {
-  max-width: 65rem;
+  max-width: 60rem;
   margin: 22rem auto;
   background-color: #fff;
   border-radius: 9px;
@@ -73,4 +73,10 @@ body {
   line-height: 1.6;
   margin-bottom: 2.6rem;
   font-weight: 500;
+}
+
+.price-text {
+  font-size: 3.2rem;
+  font-family: "Fraunces", sans-serif;
+  font-weight: 700;
 }
