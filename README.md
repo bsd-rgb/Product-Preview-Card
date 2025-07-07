@@ -38,7 +38,7 @@ Mobile:
 ### Links
 
 - [Solution URL](https://github.com/bsd-rgb/Product-Preview-Card)
-- Live Site URL: [Live Site URL](https://bsd-rgb.github.io/Product-Preview-Card/)
+- [Live Site URL](https://bsd-rgb.github.io/Product-Preview-Card/)
 
 ## My process
 
