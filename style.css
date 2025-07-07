@@ -23,7 +23,7 @@ body {
 }
 
 .section-product-preview {
-  max-width: 60rem;
+  max-width: 65rem;
   margin: 22rem auto;
   background-color: #fff;
   border-radius: 9px;
@@ -32,7 +32,7 @@ body {
 .product-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 3.6rem;
+  gap: 3rem;
 }
 .product-img-box {
   border-radius: 9px 0 0 9px;
@@ -40,14 +40,12 @@ body {
 }
 .product-img {
   width: 100%;
+  height: 100%;
   display: block;
 }
 
 .product-text-box {
-  padding: 3.6rem 4.8rem 3.6rem 0;
-  /* display: flex;
-  flex-direction: column;
-  gap: 2.4rem; */
+  padding: 3.6rem 4rem 3.6rem 0;
 }
 
 .tag {
@@ -57,26 +55,78 @@ body {
   letter-spacing: 5px;
   text-transform: uppercase;
   margin-bottom: 2.6rem;
+  font-weight: 500;
 }
 
 .heading-product {
   font-family: "Fraunces", sans-serif;
   color: #1c232b;
-  font-size: 3.2rem;
+  font-size: 3.6rem;
   font-weight: 700;
   margin-bottom: 2.6rem;
   line-height: 1;
 }
 
 .product-text {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   line-height: 1.6;
   margin-bottom: 2.6rem;
   font-weight: 500;
+}
+
+.price {
+  display: flex;
+  margin-bottom: 3.2rem;
+  align-items: center;
+  gap: 1.4rem;
 }
 
 .price-text {
   font-size: 3.2rem;
   font-family: "Fraunces", sans-serif;
   font-weight: 700;
+  color: #3d8168;
 }
+
+.price-text--strikethrough {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.btn--container {
+  display: flex;
+  background-color: #3d8168;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9px;
+}
+
+.cart-icon {
+  width: 1.8rem;
+  height: 1.8rem;
+}
+
+.btn:link,
+.btn:visited {
+  display: block;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  padding: 2rem 1rem;
+}
+
+.btn:hover,
+.btn:active {
+}
+
+/* 
+This session: 
+
+- Updated the strikethrough price styling
+- Updated the button styling. 
+  - Issue getting the icon and the text in line
+  + getting the background color for the container
+- Updated font weight to tag
+
+*/
