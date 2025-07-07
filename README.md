@@ -37,8 +37,8 @@ Mobile:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL](https://github.com/bsd-rgb/Product-Preview-Card)
+- Live Site URL: [Live Site URL](https://bsd-rgb.github.io/Product-Preview-Card/)
 
 ## My process
 
